@@ -1,0 +1,21 @@
+@if (structure(); as structure) {
+  <article>
+    <p class="kicker">How government works</p>
+    <h1>{{ structure.title }}</h1>
+    <p class="dek">{{ structure.dek }}</p>
+    <app-markdown [source]="structure.body" />
+    @if (countries().length) {
+      <section class="block" aria-labelledby="countries-using-this">
+        <h2 id="countries-using-this" class="section-label">On this desk</h2>
+        <ul class="sources">
+          @for (country of countries(); track country.id) {
+            <li><a class="row-title" [routerLink]="['/countries', country.id]">{{ country.name }}</a></li>
+          }
+        </ul>
+      </section>
+    }
+  </article>
+} @else {
+  <h1>That essay is not on the desk.</h1>
+  <p class="stack-link"><a routerLink="/">Back to this week</a></p>
+}

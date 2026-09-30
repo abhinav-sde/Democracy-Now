@@ -1,0 +1,317 @@
+[
+  {
+    "id": "india-assam-2026",
+    "countryId": "india",
+    "subunit": "Assam",
+    "office": "Legislative Assembly",
+    "date": "2026-04-09",
+    "datePrecision": "day",
+    "level": "india-state",
+    "status": "held",
+    "confidence": "confirmed",
+    "note": "126 seats, one phase. Counting was scheduled for 4 May 2026.",
+    "sources": [
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "india-kerala-2026",
+    "countryId": "india",
+    "subunit": "Kerala",
+    "office": "Legislative Assembly",
+    "date": "2026-04-09",
+    "datePrecision": "day",
+    "level": "india-state",
+    "status": "held",
+    "confidence": "confirmed",
+    "note": "140 seats, one phase. Counting was scheduled for 4 May 2026.",
+    "sources": [
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "india-puducherry-2026",
+    "countryId": "india",
+    "subunit": "Puducherry",
+    "office": "Legislative Assembly",
+    "date": "2026-04-09",
+    "datePrecision": "day",
+    "level": "india-state",
+    "status": "held",
+    "confidence": "confirmed",
+    "note": "30 seats, one phase. Counting was scheduled for 4 May 2026.",
+    "sources": [
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "india-tamil-nadu-2026",
+    "countryId": "india",
+    "subunit": "Tamil Nadu",
+    "office": "Legislative Assembly",
+    "date": "2026-04-23",
+    "datePrecision": "day",
+    "level": "india-state",
+    "status": "held",
+    "confidence": "confirmed",
+    "note": "234 seats, one phase. Counting was scheduled for 4 May 2026.",
+    "sources": [
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "india-west-bengal-2026",
+    "countryId": "india",
+    "subunit": "West Bengal",
+    "office": "Legislative Assembly",
+    "date": "2026-04-23",
+    "endDate": "2026-04-29",
+    "datePrecision": "day",
+    "level": "india-state",
+    "status": "held",
+    "confidence": "confirmed",
+    "note": "294 seats across two phases, 23 and 29 April. Counting was scheduled for 4 May 2026.",
+    "sources": [
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "latvia-parliament-2026",
+    "countryId": "latvia",
+    "office": "Saeima",
+    "date": "2026-10-03",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "Election of the 100-seat parliament. The president is not on this ballot.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "bosnia-presidency-2026",
+    "countryId": "bosnia-and-herzegovina",
+    "office": "Presidency",
+    "date": "2026-10-04",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "Three members: one Bosniak and one Croat elected in the Federation, and one Serb elected in Republika Srpska.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "bosnia-house-2026",
+    "countryId": "bosnia-and-herzegovina",
+    "office": "House of Representatives",
+    "date": "2026-10-04",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "42 seats, elected for four years.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "brazil-president-2026",
+    "countryId": "brazil",
+    "office": "President",
+    "date": "2026-10-04",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "If no candidate wins a majority of valid votes, the top two meet in a second round on 25 October 2026. That round is not listed as its own election until it is required. State governors are also elected on 4 October.",
+    "sources": [
+      { "label": "Superior Electoral Court", "url": "https://www.tse.jus.br/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "brazil-chamber-2026",
+    "countryId": "brazil",
+    "office": "Chamber of Deputies",
+    "date": "2026-10-04",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "All 513 seats, four-year terms.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "Superior Electoral Court", "url": "https://www.tse.jus.br/" }
+    ]
+  },
+  {
+    "id": "brazil-senate-2026",
+    "countryId": "brazil",
+    "office": "Federal Senate",
+    "date": "2026-10-04",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "54 of 81 seats, two senators in each state and the Federal District. Eight-year terms. There is no second round.",
+    "sources": [
+      { "label": "Senado Notícias, 8 July 2026", "url": "https://www12.senado.leg.br/noticias/materias/2026/07/08/em-outubro-eleitores-escolherao-54-senadores-dois-tercos-da-casa" }
+    ]
+  },
+  {
+    "id": "czech-senate-2026",
+    "countryId": "czech-republic",
+    "office": "Senate",
+    "date": "2026-10-09",
+    "endDate": "2026-10-10",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "One third of the 81 seats. First round 9–10 October. A second round, if needed, falls on 16–17 October and is not listed separately.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "israel-knesset-2026",
+    "countryId": "israel",
+    "office": "Knesset",
+    "date": "2026-10-27",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "All 120 seats.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "us-house-2026",
+    "countryId": "united-states",
+    "office": "House of Representatives",
+    "date": "2026-11-03",
+    "datePrecision": "day",
+    "level": "us",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "All 435 voting seats. Two-year terms. Members take office on 3 January 2027.",
+    "sources": [
+      { "label": "Federal Election Commission", "url": "https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/" },
+      { "label": "2026 United States elections", "url": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+    ]
+  },
+  {
+    "id": "us-senate-2026",
+    "countryId": "united-states",
+    "office": "Senate",
+    "date": "2026-11-03",
+    "datePrecision": "day",
+    "level": "us",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "35 seats: 33 Class II seats last elected in 2020, plus special elections in Florida and Ohio. Six-year terms.",
+    "sources": [
+      { "label": "Federal Election Commission", "url": "https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/" },
+      { "label": "2026 United States elections", "url": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+    ]
+  },
+  {
+    "id": "us-governors-2026",
+    "countryId": "united-states",
+    "office": "Governors",
+    "date": "2026-11-03",
+    "datePrecision": "day",
+    "level": "us",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "36 states. Governors are state officers. They share election day with Congress and do not sit in the federal government. Territorial governors are not listed separately.",
+    "sources": [
+      { "label": "Federal Election Commission", "url": "https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/" },
+      { "label": "2026 United States elections", "url": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+    ]
+  },
+  {
+    "id": "new-zealand-parliament-2026",
+    "countryId": "new-zealand",
+    "office": "House of Representatives",
+    "date": "2026-11-07",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "Parliamentary election under a three-year term.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "gambia-president-2026",
+    "countryId": "gambia",
+    "office": "President",
+    "date": "2026-12-05",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "Presidential election. Five-year term.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "guinea-bissau-general-2026",
+    "countryId": "guinea-bissau",
+    "office": "President and People's National Assembly",
+    "date": "2026-12-06",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "tentative",
+    "note": "Election calendars still mark this date as tentative.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" }
+    ]
+  },
+  {
+    "id": "haiti-general-2026",
+    "countryId": "haiti",
+    "office": "President, Chamber of Deputies, and Senate",
+    "date": "2026-12-13",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "confirmed",
+    "note": "Presidential and parliamentary offices. The day is the one published on international election calendars.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "south-sudan-general-2026",
+    "countryId": "south-sudan",
+    "office": "President, Transitional National Legislative Assembly, and Council of States",
+    "date": "2026-12-22",
+    "datePrecision": "day",
+    "level": "national",
+    "status": "scheduled",
+    "confidence": "tentative",
+    "note": "Marked tentative. Earlier announced dates were postponed, so this line is not a promise that the vote will be held.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  }
+]

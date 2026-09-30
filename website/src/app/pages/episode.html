@@ -1,0 +1,21 @@
+@if (episode(); as episode) {
+  <article>
+    <p class="kicker">{{ weekLabel(episode.week) }}</p>
+    <h1>{{ episode.title }}</h1>
+    <p class="dek">{{ episode.dek }}</p>
+    <app-episode-body [sections]="episode.sections" />
+    <section class="block" aria-labelledby="episode-elections">
+      <h2 id="episode-elections">Elections in this brief</h2>
+      <app-election-rows [rows]="rows()" />
+    </section>
+    @if (structure(); as structure) {
+      <p class="quiet">
+        Structure lesson:
+        <a [routerLink]="['/structures', structure.slug]">{{ structure.title }}</a>
+      </p>
+    }
+  </article>
+} @else {
+  <h1>That episode is not on the desk.</h1>
+  <p class="stack-link"><a routerLink="/episodes">Back to episodes</a></p>
+}

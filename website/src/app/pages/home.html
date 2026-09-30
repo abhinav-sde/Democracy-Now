@@ -1,0 +1,57 @@
+<div class="home">
+  <article>
+    <p class="kicker">This week</p>
+    @if (episode(); as episode) {
+      <p class="meta">{{ weekLabel(episode.week) }}</p>
+      <h1>{{ episode.title }}</h1>
+      <p class="dek">{{ episode.dek }}</p>
+      <app-episode-body [sections]="episode.sections" />
+    } @else {
+      <h1>No brief published for this week yet.</h1>
+      <p class="dek">The calendar is still live. A new episode becomes this page on its published date.</p>
+    }
+  </article>
+
+  <aside class="aside">
+    <section aria-labelledby="next-14-days">
+      <h2 id="next-14-days" class="section-label">Next 14 days</h2>
+      <app-election-rows [rows]="fortnight()" [compact]="true" />
+      <p class="stack-link"><a routerLink="/calendar">Full calendar</a></p>
+    </section>
+
+    @if (structure(); as structure) {
+      <section class="card" aria-labelledby="structure-lesson">
+        <h2 id="structure-lesson" class="section-label">Structure lesson</h2>
+        <h3><a [routerLink]="['/structures', structure.slug]">{{ structure.title }}</a></h3>
+        <p>{{ structure.dek }}</p>
+      </section>
+    }
+
+    <section aria-labelledby="regime-watch">
+      <h2 id="regime-watch" class="section-label">Regime watch</h2>
+      @if (!regime().length) {
+        <p class="quiet">
+          No dated change of regime is on file for {{ month }}. A coup, a suspension, or a restoration
+          appears here only when the file has a date and a source.
+        </p>
+      } @else {
+        <ul class="rows compact">
+          @for (event of regime(); track event.id) {
+            <li>
+              <p class="when">{{ event.date }}</p>
+              <p class="row-title">{{ countryName(event.countryId) }}: {{ event.summary }}</p>
+            </li>
+          }
+        </ul>
+      }
+    </section>
+
+    @if (next(); as next) {
+      <section class="no-print" aria-labelledby="coming-up">
+        <h2 id="coming-up" class="section-label">Coming up</h2>
+        <p class="row-title"><a [routerLink]="['/episodes', next.slug]">{{ next.title }}</a></p>
+        <p class="meta">{{ weekLabel(next.week) }}</p>
+      </section>
+    }
+  </aside>
+</div>

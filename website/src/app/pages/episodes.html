@@ -1,0 +1,21 @@
+<p class="kicker">Episodes</p>
+<h1>The weekly brief</h1>
+<p class="dek">
+  Each one has the same four parts, so it can be published or read aloud: Open, On the ballot, How this
+  government works, Watch next.
+</p>
+<ul class="rows archive">
+  @for (episode of episodes(); track episode.slug) {
+    <li>
+      <div>
+        <p class="when">
+          {{ weekLabel(episode.week) }}
+          @if (episode.published > today) { · Upcoming }
+          @if (episode.slug === current()?.slug) { · This week }
+        </p>
+        <h2><a [routerLink]="['/episodes', episode.slug]">{{ episode.title }}</a></h2>
+        <p class="dek">{{ episode.dek }}</p>
+      </div>
+    </li>
+  }
+</ul>

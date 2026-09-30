@@ -1,0 +1,35 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="dateline">
+      <p>A weekly election desk</p>
+      <p>{{ today }}</p>
+    </div>
+    <p class="masthead"><a routerLink="/">Democracy This Week</a></p>
+    <nav class="nav no-print" aria-label="Sections">
+      <ul>
+        <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">This week</a></li>
+        <li><a routerLink="/calendar" routerLinkActive="active">Calendar</a></li>
+        <li><a routerLink="/countries" routerLinkActive="active">Countries</a></li>
+        <li><a routerLink="/episodes" routerLinkActive="active">Episodes</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  @if (failed()) {
+    <h1>The desk did not load.</h1>
+    <p class="dek">The election files could not be read. Start the app from the project root.</p>
+  } @else if (!ready()) {
+    <p class="dek">Loading the desk…</p>
+  } @else {
+    <router-outlet />
+  }
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>A date on this desk means an election is scheduled or was held. It is not a judgment that the election was free and fair.</p>
+    <p class="signoff">Democracy This Week</p>
+  </div>
+</footer>

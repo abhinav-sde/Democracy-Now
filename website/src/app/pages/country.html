@@ -1,0 +1,40 @@
+@if (country(); as country) {
+  <article>
+    <p class="kicker">{{ country.region }}</p>
+    <h1>{{ country.name }}</h1>
+    <p class="lede">{{ country.summary }}</p>
+    <dl class="facts">
+      <div class="fact"><dt>System</dt><dd>{{ country.systemLabel }}</dd></div>
+      <div class="fact"><dt>Term</dt><dd>{{ country.termLabel }}</dd></div>
+      <div class="fact"><dt>Legislature</dt><dd>{{ country.legislature }}</dd></div>
+      <div class="fact"><dt>Executive</dt><dd>{{ country.executive }}</dd></div>
+    </dl>
+    <p class="note">{{ country.electionInterval }}</p>
+
+    <section class="block" aria-labelledby="elections-on-file">
+      <h2 id="elections-on-file">Elections on file</h2>
+      @if (elections().length) {
+        <app-election-rows [rows]="elections()" [showCountry]="false" />
+      } @else {
+        <p class="empty">No election on file for this desk yet. The page is here for the structure comparison.</p>
+      }
+    </section>
+
+    @if (structure(); as structure) {
+      <section class="block" aria-labelledby="how-it-works">
+        <h2 id="how-it-works">How this government works</h2>
+        <p class="dek">{{ structure.dek }}</p>
+        <app-markdown [source]="structure.body" />
+        <p class="stack-link"><a [routerLink]="['/structures', structure.slug]">{{ structure.title }}</a></p>
+      </section>
+    }
+
+    <section class="block" aria-labelledby="sources">
+      <h2 id="sources" class="section-label">Sources</h2>
+      <app-sources [sources]="country.sources" />
+    </section>
+  </article>
+} @else {
+  <h1>That country is not on the desk.</h1>
+  <p class="stack-link"><a routerLink="/countries">Back to countries</a></p>
+}

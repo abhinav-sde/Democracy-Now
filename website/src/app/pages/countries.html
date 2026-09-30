@@ -1,0 +1,20 @@
+<p class="kicker">Countries</p>
+<h1>How the government is chosen</h1>
+<p class="dek">System, term, and what the election actually fills. This is not a democracy index.</p>
+
+<div class="block">
+  @for (region of regions(); track region) {
+    <section class="region" [attr.aria-labelledby]="'region-' + region">
+      <h2 [id]="'region-' + region">{{ region }}</h2>
+      <ul class="rows">
+        @for (country of inRegion(region); track country.id) {
+          <li class="country-row">
+            <a [routerLink]="['/countries', country.id]">{{ country.name }}</a>
+            <p class="system">{{ country.systemLabel }}</p>
+            <p class="term">{{ country.termLabel }}</p>
+          </li>
+        }
+      </ul>
+    </section>
+  }
+</div>

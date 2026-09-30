@@ -1,0 +1,267 @@
+[
+  {
+    "id": "bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "system": "hybrid",
+    "systemLabel": "Hybrid",
+    "legislature": "Parliamentary Assembly, including a directly elected House of Representatives of 42 seats",
+    "executive": "A three-member presidency and a council of ministers",
+    "termYears": 4,
+    "termLabel": "4 years",
+    "electionInterval": "The presidency and the House of Representatives are elected for four years.",
+    "structureSlug": "collective-presidency",
+    "summary": "Voters do not elect a single head of state. One Bosniak and one Croat are elected in the Federation of Bosnia and Herzegovina, and one Serb is elected in Republika Srpska. The House of Representatives is elected the same day.",
+    "sources": [
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "brazil",
+    "name": "Brazil",
+    "region": "Americas",
+    "system": "presidential",
+    "systemLabel": "Presidential",
+    "legislature": "National Congress: Chamber of Deputies (513 seats, four-year terms) and Federal Senate (81 seats, eight-year terms)",
+    "executive": "A directly elected president, who is head of state and head of government",
+    "termYears": 4,
+    "termLabel": "4 years for the president and the Chamber; 8 years for the Senate, staggered",
+    "electionInterval": "Presidential and Chamber elections are every four years. Senate elections alternate between one third and two thirds of the seats.",
+    "structureSlug": "two-round-presidential",
+    "summary": "A president must win a majority of valid votes. If nobody does, the top two candidates meet in a second round. In 2026 the Chamber is renewed in full and 54 of 81 Senate seats are on the ballot.",
+    "sources": [
+      { "label": "Superior Electoral Court", "url": "https://www.tse.jus.br/" },
+      { "label": "Senado Notícias, 8 July 2026", "url": "https://www12.senado.leg.br/noticias/materias/2026/07/08/em-outubro-eleitores-escolherao-54-senadores-dois-tercos-da-casa" }
+    ]
+  },
+  {
+    "id": "czech-republic",
+    "name": "Czech Republic",
+    "region": "Europe",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "Parliament of the Czech Republic: a 200-seat Chamber of Deputies and an 81-seat Senate",
+    "executive": "A prime minister accountable to the Chamber of Deputies, and a president elected separately",
+    "termYears": 6,
+    "termLabel": "4 years for the Chamber of Deputies; 6 years for the Senate, one third at a time",
+    "electionInterval": "Senate elections are held every two years, for a third of the seats. The October 2026 vote is a Senate election, not an election of the government.",
+    "structureSlug": "parliamentary",
+    "summary": "The government comes from the Chamber of Deputies. The Senate is a second chamber with six-year terms, renewed one third at a time in two-round district elections.",
+    "sources": [
+      { "label": "Senate of the Czech Republic", "url": "https://www.senat.cz/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "region": "Europe",
+    "system": "semi-presidential",
+    "systemLabel": "Semi-presidential",
+    "legislature": "Parliament, including a directly elected National Assembly",
+    "executive": "A directly elected president who appoints a prime minister responsible to the National Assembly",
+    "termYears": 5,
+    "termLabel": "5 years for the president and the National Assembly",
+    "electionInterval": "Presidential and legislative terms are both five years. They are not always elected on the same day.",
+    "structureSlug": "semi-presidential",
+    "summary": "Voters elect the president. The government still has to survive in the National Assembly. When the assembly majority and the president disagree, France has lived with both at once.",
+    "sources": [
+      { "label": "Élysée, the French presidency", "url": "https://www.elysee.fr/en/french-presidency" }
+    ]
+  },
+  {
+    "id": "gambia",
+    "name": "The Gambia",
+    "region": "Africa",
+    "system": "presidential",
+    "systemLabel": "Presidential",
+    "legislature": "A national assembly, elected separately from the president",
+    "executive": "A directly elected president, head of state and head of government",
+    "termYears": 5,
+    "termLabel": "5 years for the president",
+    "electionInterval": "The presidential term is five years. The 2026 presidential date on file is 5 December.",
+    "structureSlug": "presidential",
+    "summary": "The presidential election chooses the head of government for a five-year term. The legislature is a separate election and is not on the December 2026 line in this file.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "region": "Europe",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "Bundestag, the federal parliament",
+    "executive": "A chancellor elected by the Bundestag. The federal president is head of state, not head of government.",
+    "termYears": 4,
+    "termLabel": "4 years for the Bundestag",
+    "electionInterval": "The Bundestag is elected for four years. The chancellor is the person who can command it.",
+    "structureSlug": "parliamentary",
+    "summary": "German voters elect the Bundestag. They do not elect the chancellor on a separate ballot. The federal president is not the head of the government.",
+    "sources": [
+      { "label": "German Bundestag", "url": "https://www.bundestag.de/en" }
+    ]
+  },
+  {
+    "id": "guinea-bissau",
+    "name": "Guinea-Bissau",
+    "region": "Africa",
+    "system": "semi-presidential",
+    "systemLabel": "Semi-presidential",
+    "legislature": "People's National Assembly",
+    "executive": "A directly elected president and a prime minister",
+    "termYears": null,
+    "termLabel": "President and parliament are both directly elected",
+    "electionInterval": "A presidential and parliamentary date is on file for 6 December 2026 and is still marked tentative.",
+    "structureSlug": "semi-presidential",
+    "summary": "The offices are a directly elected president and a parliament. Election calendars still mark 6 December 2026 as tentative, so this desk does not treat the vote as certain.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" }
+    ]
+  },
+  {
+    "id": "haiti",
+    "name": "Haiti",
+    "region": "Americas",
+    "system": "semi-presidential",
+    "systemLabel": "Semi-presidential",
+    "legislature": "A bicameral parliament: the Chamber of Deputies and the Senate",
+    "executive": "A president and a prime minister who needs the confidence of parliament",
+    "termYears": null,
+    "termLabel": "President and both houses are on the 13 December 2026 calendar",
+    "electionInterval": "International calendars publish 13 December 2026 for a presidential and parliamentary election.",
+    "structureSlug": "semi-presidential",
+    "summary": "The constitution provides for a directly elected president and a parliament that the government must face. A date is published for 13 December 2026. This page records that date. It does not score the conditions of the vote.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "region": "Asia",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "Parliament, with a directly elected Lok Sabha, plus a legislative assembly in each state and some union territories",
+    "executive": "A prime minister commanding the Lok Sabha. The president is elected indirectly. Each state has a chief minister commanding its assembly.",
+    "termYears": 5,
+    "termLabel": "5 years for the Lok Sabha and for state assemblies",
+    "electionInterval": "National and state elections are both on five-year clocks, and they do not have to fall in the same year.",
+    "structureSlug": "parliamentary",
+    "summary": "Voters elect legislatures, nationally and in the states. The government is whoever can command that legislature. The 2026 assembly elections in Assam, Kerala, Tamil Nadu, West Bengal, and Puducherry were held in April. Results are not recorded here yet.",
+    "sources": [
+      { "label": "Election Commission of India", "url": "https://eci.gov.in/" },
+      { "label": "ECI press note, 15 March 2026", "url": "https://ceopuducherry.py.gov.in/admin/pressrelease/ECI_PressNote_15_03_2026.pdf" }
+    ]
+  },
+  {
+    "id": "israel",
+    "name": "Israel",
+    "region": "Asia",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "Knesset, 120 seats",
+    "executive": "A prime minister who needs the confidence of the Knesset",
+    "termYears": 4,
+    "termLabel": "4 years for the Knesset, often dissolved sooner",
+    "electionInterval": "The statutory Knesset term is four years. Early elections are common.",
+    "structureSlug": "parliamentary",
+    "summary": "The national election is an election of the whole Knesset. The government is formed afterwards, from whoever can win the confidence of that house.",
+    "sources": [
+      { "label": "The Knesset", "url": "https://main.knesset.gov.il/en" },
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" }
+    ]
+  },
+  {
+    "id": "latvia",
+    "name": "Latvia",
+    "region": "Europe",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "Saeima, 100 seats",
+    "executive": "A prime minister and cabinet accountable to the Saeima. The president is elected by the Saeima.",
+    "termYears": 4,
+    "termLabel": "4 years for the Saeima",
+    "electionInterval": "The Saeima is elected every four years. The 3 October 2026 election is parliamentary, not presidential.",
+    "structureSlug": "parliamentary",
+    "summary": "Voters elect the parliament. The government is formed from that result, and the Saeima also elects the president. The president is not on the October ballot.",
+    "sources": [
+      { "label": "Saeima", "url": "https://www.saeima.lv/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "new-zealand",
+    "name": "New Zealand",
+    "region": "Oceania",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "House of Representatives, elected by mixed-member proportional representation",
+    "executive": "A prime minister commanding the House of Representatives",
+    "termYears": 3,
+    "termLabel": "3 years",
+    "electionInterval": "Parliamentary terms are three years, shorter than the four- or five-year terms common elsewhere.",
+    "structureSlug": "parliamentary",
+    "summary": "Voters elect a parliament, and the government is whoever can command it. The term is three years, so New Zealand is at the polls more often than a country on a five-year clock.",
+    "sources": [
+      { "label": "Elections New Zealand", "url": "https://www.elections.nz/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "south-sudan",
+    "name": "South Sudan",
+    "region": "Africa",
+    "system": "transitional",
+    "systemLabel": "Transitional",
+    "legislature": "Transitional National Legislative Assembly and Council of States",
+    "executive": "A transitional presidency",
+    "termYears": null,
+    "termLabel": "Transitional. No settled elected term is in force on this desk.",
+    "electionInterval": "International calendars list 22 December 2026 as a tentative general election. Earlier announced dates were postponed.",
+    "structureSlug": "transitional",
+    "summary": "South Sudan has been governed by a transitional arrangement under peace agreements. A December 2026 election is on international calendars and is marked tentative here. A published date is not treated as proof the vote will be held.",
+    "sources": [
+      { "label": "IFES Election Guide", "url": "https://www.electionguide.org/elections/type/upcoming/" },
+      { "label": "2026 national electoral calendar", "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar" }
+    ]
+  },
+  {
+    "id": "united-kingdom",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "system": "parliamentary",
+    "systemLabel": "Parliamentary",
+    "legislature": "House of Commons, the elected house of Parliament",
+    "executive": "A prime minister who commands the House of Commons. The monarch is head of state.",
+    "termYears": 5,
+    "termLabel": "Up to 5 years for the House of Commons",
+    "electionInterval": "A Parliament can last five years. It can also be dissolved sooner.",
+    "structureSlug": "parliamentary",
+    "summary": "Voters elect the House of Commons. The government is the one that can command that house. There is no separate election of a president, and the maximum term is five years rather than a fixed day years ahead.",
+    "sources": [
+      { "label": "How government works", "url": "https://www.gov.uk/government/how-government-works" }
+    ]
+  },
+  {
+    "id": "united-states",
+    "name": "United States",
+    "region": "Americas",
+    "system": "presidential",
+    "systemLabel": "Presidential",
+    "legislature": "Congress: a 435-seat House of Representatives and a 100-seat Senate",
+    "executive": "A separately elected president. State governors are state executives, not federal officers.",
+    "termYears": 4,
+    "termLabel": "2 years for the House; 6 years for the Senate; 4 years for the president",
+    "electionInterval": "House elections are every two years. Senate seats are staggered across six-year terms. The presidency is every four years and is not on the 2026 midterm ballot.",
+    "structureSlug": "us-midterms",
+    "summary": "Congress and the president are elected on different clocks, so a midterm can change the legislature without changing the president. On 3 November 2026 the ballot is the whole House, 35 Senate seats, and governors in 36 states.",
+    "sources": [
+      { "label": "Federal Election Commission", "url": "https://www.fec.gov/introduction-campaign-finance/election-and-voting-information/" },
+      { "label": "2026 United States elections", "url": "https://en.wikipedia.org/wiki/2026_United_States_elections" }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "episodes": [
+    "2026-w40-three-ballots.md",
+    "2026-w44-us-midterms.md"
+  ],
+  "structures": [
+    "collective-presidency.md",
+    "parliamentary.md",
+    "presidential.md",
+    "semi-presidential.md",
+    "transitional.md",
+    "two-round-presidential.md",
+    "us-midterms.md"
+  ]
+}

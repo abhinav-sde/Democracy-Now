@@ -1,0 +1,63 @@
+<p class="kicker">Calendar</p>
+<h1>What is on the ballot</h1>
+<p class="dek">
+  National elections, Indian state assemblies, and the United States midterms. Held votes stay on the
+  list. A result is added only with a commission source.
+</p>
+
+<form class="filters no-print">
+  <label>
+    Month
+    <select [value]="month()" (change)="onMonth($event)">
+      <option value="all">All months</option>
+      @for (key of months(); track key) {
+        <option [value]="key">{{ monthName(key) }}</option>
+      }
+    </select>
+  </label>
+  <label>
+    Region
+    <select [value]="region()" (change)="onRegion($event)">
+      <option value="all">All regions</option>
+      @for (name of regions(); track name) {
+        <option [value]="name">{{ name }}</option>
+      }
+    </select>
+  </label>
+  <label>
+    Level
+    <select [value]="level()" (change)="onLevel($event)">
+      <option value="all">All levels</option>
+      @for (item of levels; track item) {
+        <option [value]="item">{{ levelLabel(item) }}</option>
+      }
+    </select>
+  </label>
+</form>
+
+@if (!filtered().length) {
+  <p class="empty">No elections match these filters.</p>
+} @else {
+  <section class="group" aria-labelledby="coming-up">
+    @if (coming().length) {
+      <h2 id="coming-up" class="section-label">Coming up</h2>
+      @for (key of monthsOf(coming()); track key) {
+        <div class="month-block">
+          <h3>{{ monthName(key) }}</h3>
+          <app-election-rows [rows]="inMonth(coming(), key)" />
+        </div>
+      }
+    }
+  </section>
+  <section class="group" aria-labelledby="already-held">
+    @if (held().length) {
+      <h2 id="already-held" class="section-label">Already held</h2>
+      @for (key of monthsOf(held()); track key) {
+        <div class="month-block">
+          <h3>{{ monthName(key) }}</h3>
+          <app-election-rows [rows]="inMonth(held(), key)" />
+        </div>
+      }
+    }
+  </section>
+}

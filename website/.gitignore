@@ -1,0 +1,8 @@
+/dist
+/tmp
+/out-tsc
+/node_modules
+/.angular/cache
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
